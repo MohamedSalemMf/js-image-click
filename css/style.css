@@ -1,0 +1,39 @@
+body{
+    /* background-color: blueviolet;     Test */
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gellery{
+    margin: 10px 50px;
+    overflow: hidden;
+}
+
+
+
+
+
+.gellery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+
+
+.gellery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
